@@ -1,6 +1,5 @@
 import React from 'react';
 import {View, Animated, TouchableWithoutFeedback} from 'react-native';
-import PropTypes from 'prop-types';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import Entypo from 'react-native-vector-icons/Entypo';
 import {
@@ -119,10 +118,6 @@ const FloatingButton = props => {
       </TouchableWithoutFeedback>
     </View>
   );
-};
-
-FloatingButton.propTypes = {
-  containerStyle: PropTypes.any,
 };
 
 export default FloatingButton;
