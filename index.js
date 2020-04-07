@@ -17,7 +17,7 @@ const App = () => {
           useNativeFeedback={false}
           fixNativeFeedbackRadius={true}
           title={'ok'}>
-          <Text>ok</Text>
+          <Text>test ok!</Text>
         </ActionButton.Item>
       </ActionButton>
     </View>
