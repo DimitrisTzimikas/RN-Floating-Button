@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, StyleSheet} from 'react-native';
-import FloatingButton from './src/components/FloatingButton';
+import FloatingButton from './components/FloatingButton';
 
 const App = () => {
   return (
